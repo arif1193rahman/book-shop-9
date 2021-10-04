@@ -1,0 +1,55 @@
+.nav-tab {
+    margin-left: 80px;
+    line-height: 50px;
+
+}
+
+.nav-link {
+    /* margin: 20px; */
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 50px;
+    color: rgb(62, 247, 78);
+    font-weight: 800;
+
+}
+
+
+/* .nav-bar {
+    --color-background: #000119;
+    --stroke-width: calc(1em / 16);
+    --font-size: 10vmin;
+    --font-weight: 700;
+    --letter-spacing: calc(1em / 8);
+} */
+
+/* .nav-bar {
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+body {
+    background-color: var(--color-background);
+    display: grid;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    min-block-size: 100vh;
+    place-items: center;
+    padding: 5vmin;
+}
+
+.navbar-brand {
+    background-clip: text;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #f0f064, #1bfe0f);
+    color: var(--color-background);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+} */

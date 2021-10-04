@@ -1,0 +1,27 @@
+.product-card {
+    width: 300px;
+    height: 550px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: rgba(228, 223, 53, 0.201);
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+        inset -5px -5px 5px rgba(101, 56, 56, 0.5),
+        5px 5px 5px rgba(145, 48, 48, 0.653),
+        -5px -5px 5px rgba(169, 170, 235, 0.5);
+}
+
+.product-card img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+.product-section {
+    margin: 10px;
+    margin-left: 30px;
+    color: rgb(120, 138, 121);
+    line-height: 1;
+}

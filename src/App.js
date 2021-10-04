@@ -11,6 +11,7 @@ import NavBar from './Components/NavBar/NavBar';
 import About from './Components/About/About';
 import Service from './Components/Service/Service';
 import SignIn from './Components/SignIn/SignIn';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route exact path="/signIn">
             <SignIn></SignIn>
+          </Route>
+          <Route exact path="*">
+            <NotFound></NotFound>
           </Route>
 
         </Switch>

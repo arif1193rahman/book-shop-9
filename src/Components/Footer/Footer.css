@@ -7,6 +7,10 @@
     font-size: 30px;
 }
 
+.contract {
+    text-align: center;
+}
+
 .icon:hover {
     background-color: rgb(250, 25, 25);
 }

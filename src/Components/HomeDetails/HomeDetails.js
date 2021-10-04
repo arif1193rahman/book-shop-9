@@ -19,7 +19,9 @@ const HomeDetails = () => {
 
             <div className="row">
                 {
-                    infos.map(item => <HomeCard item={item}></HomeCard>)
+                    infos.map(item => <HomeCard item={item}
+                        key={item.id}
+                    ></HomeCard>)
                 }
             </div>
 

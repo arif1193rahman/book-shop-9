@@ -3,6 +3,7 @@ import './Home.css';
 import Header from '../Header/Header';
 import HomeDetails from '../HomeDetails/HomeDetails';
 import Footer from '../Footer/Footer';
+import Information from '../Information/Information';
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
 
             <Header></Header>
             <HomeDetails></HomeDetails>
-
+            <Information></Information>
 
         </div>
     );

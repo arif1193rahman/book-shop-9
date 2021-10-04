@@ -3,9 +3,9 @@ import './ServiceDetails.css';
 
 const ServiceDetails = (props) => {
     const { img, sub, experienced, teacher, session, taka } = props.service;
+
+    // Our Another Information UI
     return (
-
-
         <div className="col-md-4 service-details">
             <img src={img} alt="" />
             <h1>{sub}</h1>

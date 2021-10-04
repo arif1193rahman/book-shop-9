@@ -4,6 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 
 
 const About = () => {
+    // Chart information
     const data = [
         { name: '2016', uv: 400, pv: 2400, amt: 2400 },
         { name: '2017', uv: 300, pv: 2400, amt: 2400 },

@@ -8,7 +8,7 @@ import Information from '../Information/Information';
 const Home = () => {
     return (
         <div className="home-style">
-
+            {/* receive all home UI */}
             <Header></Header>
             <HomeDetails></HomeDetails>
             <Information></Information>

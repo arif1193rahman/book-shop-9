@@ -4,6 +4,8 @@ import './Information.css';
 const Information = () => {
     return (
         <div className="informative-part container">
+
+            {/* Learning important tips  */}
             <h1 className="informative-head">Read It Properly</h1>
             <div className="row">
                 <div className="col-md-5 cart">

@@ -5,6 +5,7 @@ import './NavBar.css'
 const NavBar = () => {
     return (
         <div className="nav-bar">
+            {/* Navigation Tab */}
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <h1 class="navbar-brand">Best Trainer</h1>

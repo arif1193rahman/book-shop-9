@@ -15,8 +15,8 @@ const HomeDetails = () => {
     }, [])
     return (
         <div className="details">
+            {/* send UI date  */}
             <h1 className="home-details">Hot Winter Packages</h1>
-
             <div className="row">
                 {
                     infos.map(item => <HomeCard item={item}

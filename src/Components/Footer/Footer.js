@@ -16,6 +16,7 @@ import {
 const Footer = () => {
     return (
         <div>
+            {/* Footer part  */}
             <div className="footer-container">
                 <div className="container">
                     <div className="row">
@@ -23,7 +24,6 @@ const Footer = () => {
                         <div className="col-md-5">
                             <div className="right-footer-container">
                                 <h3 className="contract">Contract us  </h3>
-
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                                     <div className="foter-phone-icon">
                                         <FontAwesomeIcon icon={faPhoneVolume} />
@@ -50,6 +50,7 @@ const Footer = () => {
                                     <div className="icon">
                                         <FontAwesomeIcon icon={faInstagramSquare} />
                                     </div>
+
                                     <div className="icon">
                                         <FontAwesomeIcon icon={faTwitterSquare} />
                                     </div>
@@ -78,8 +79,7 @@ const Footer = () => {
                                     <li className="footer-menu">Home</li>
                                     <li className="footer-menu">About</li>
                                     <li className="footer-menu">Service</li>
-                                    <li className="footer-menu">Contact us</li>
-                                    <li className="footer-menu"> About us</li>
+                                    <li className="footer-menu">Sign In</li>
                                 </ul>
                             </div>
                         </div>

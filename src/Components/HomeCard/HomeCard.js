@@ -8,7 +8,7 @@ const HomeCard = (props) => {
     return (
 
         <div className="col-md-4 product-card product-section">
-
+            {/* home UI card Style */}
             <img src={img} alt="" />
             <h2>{sub}<hr /></h2>
             <small>Trainer</small>
